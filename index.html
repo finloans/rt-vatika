@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK VATIKA PHASE-I - Gayatri Hindocha</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url('finloans-logo.jpg'); /* FinLoans logo watermark */
+            background-size: contain;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+            padding: 20px;
+            border-radius: 10px;
+            position: relative;
+            border: 2px solid #000; /* Bold border */
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 2cm;
+            height: 2cm;
+        }
+        h1, h2, h3 {
+            text-align: center;
+            color: red; /* Vibrant red for headings */
+        }
+        .project-details {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        label, input, select, button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .thank-you-message, .coupon-section, .pdf-links {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .pdf-links a {
+            display: block;
+            margin: 10px 0;
+            padding: 12px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            background-color: #28a745; /* Green for links */
+            color: white;
+        }
+        .contact-info {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 1.2em;
+            color: red;
+            font-weight: bold;
+        }
+        .coupon-code {
+            background-color: yellow;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- FinLoans Logo -->
+        <img src="finloans-logo.jpg" alt="FinLoans Logo" class="logo">
+
+        <!-- Project Details -->
+        <div class="project-details">
+            <h2>Project Information: RK VATIKA PHASE-I</h2>
+            <p>Type of Project: New</p>
+            <p>Project Type: Plotted Scheme</p>
+            <p>Project Location: Layout plan for residential purpose, No. of Plotted Units - 17</p>
+            <p>District: Dhenkanal</p>
+            <p>Pin: 759013</p>
+            <p>Promoter Name: Gayatri Hindocha</p>
+        </div>
+
+        <!-- Coupon Form -->
+        <div class="form-section">
+            <h2>Get a Discount on Booking Plots Through FinLoans</h2>
+            <form id="coupon-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" required>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+
+                <button type="submit">Get Coupon Code</button>
+
+                <!-- Coupon Code Display Section -->
+                <div class="coupon-section" id="coupon-section" style="display: none;">
+                    <h3>Your Coupon Code for Plot Booking</h3>
+                    <p class="coupon-code">FL2024DISCOUNT</p>
+                    <p>Use this code to avail a discount on your booking through FinLoans!</p>
+                </div>
+            </form>
+        </div>
+
+        <!-- Project Documents -->
+        <div class="pdf-links">
+            <h2>Project Documents</h2>
+            <a href="orera_certificate.pdf" target="_blank">ORERA Certificate</a>
+            <a href="drit_approval.pdf" target="_blank">DRIT Approval</a>
+            <a href="layoutplan.pdf" target="_blank">Layout Plan</a>
+            <a href="siteplan.pdf" target="_blank">Site Plan</a>
+            <a href="ror.pdf" target="_blank">ROR</a>
+            <a href="ec.pdf" target="_blank">EC</a>
+            <a href="advocatereport.pdf" target="_blank">Advocate Report</a>
+            <a href="locationmap.pdf" target="_blank">Location Map</a>
+            <a href="plotdrawing.pdf" target="_blank">Plot Drawing</a>
+            <a href="projectsitephoto.pdf" target="_blank">Project Site Photo</a>
+            <a href="subplotdetails.pdf" target="_blank">Sub Plot Details</a>
+            <a href="noc_rd_dhenkanal.pdf" target="_blank">NOC RD Dhenkanal</a>
+            <a href="noc_electricity.pdf" target="_blank">NOC Electricity</a>
+            <a href="agreementforsaleformat.pdf" target="_blank">Agreement for Sale Format</a>
+            <a href="allotmentletterformat.pdf" target="_blank">Allotment Letter Format</a>
+            <a href="giftdeedroad.pdf" target="_blank">Gift Deed Road</a>
+            <a href="saledeedformat.pdf" target="_blank">Sale Deed Format</a>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <p>FinLoans Services Pvt Ltd, a Brand of FinGroup Services Pvt Ltd</p>
+            <p>Mobile: 9827603070 | Email: <a href="mailto:support@finloans.in">support@finloans.in</a></p>
+            <p>Website: <a href="https://www.finloans.in">www.finloans.in</a></p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="coupon-handler.js"></script>
+
+</body>
+</html>
+
